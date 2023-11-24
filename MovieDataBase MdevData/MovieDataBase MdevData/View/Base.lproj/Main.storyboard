@@ -117,7 +117,7 @@
             </objects>
             <point key="canvasLocation" x="-71" y="11"/>
         </scene>
-        <!--Edit Movie-->
+        <!--Add New Movie-->
         <scene sceneID="Urz-wh-eXt">
             <objects>
                 <viewController id="V9D-21-tbD" customClass="AddMovieController" customModule="MovieDataBase_MdevData" customModuleProvider="target" sceneMemberID="viewController">
@@ -389,7 +389,7 @@
                             <constraint firstItem="Vc0-ab-dxV" firstAttribute="leading" secondItem="g4g-08-HgO" secondAttribute="leading" id="xH6-fb-TgM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Edit Movie" id="sB7-L3-AmH">
+                    <navigationItem key="navigationItem" title="Add New Movie" id="sB7-L3-AmH">
                         <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="euD-hD-Pwi">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -415,7 +415,7 @@
             </objects>
             <point key="canvasLocation" x="2384" y="11"/>
         </scene>
-        <!--Add Movie-->
+        <!--Edit Movie-->
         <scene sceneID="9TQ-dG-vAQ">
             <objects>
                 <viewController storyboardIdentifier="EditMovie" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UPd-ZB-Aaq" customClass="UpdateMovieController" customModule="MovieDataBase_MdevData" customModuleProvider="target" sceneMemberID="viewController">
@@ -682,7 +682,7 @@
                             <constraint firstItem="R2F-2M-Qu0" firstAttribute="leading" secondItem="sNf-hF-C3G" secondAttribute="leading" id="Zsg-7Y-EC2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Add Movie" id="CAM-pc-oKG">
+                    <navigationItem key="navigationItem" title="Edit Movie" id="CAM-pc-oKG">
                         <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="AKW-Ri-WjZ">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
