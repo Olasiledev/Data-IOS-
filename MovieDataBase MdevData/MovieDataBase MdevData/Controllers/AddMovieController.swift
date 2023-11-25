@@ -23,9 +23,11 @@ class AddMovieController: UIViewController {
     @IBOutlet weak var descriptionTextView: UITextView!
     let context = AppDelegate.shared.persistentContainer.viewContext
     
+    var movieListVC = MovieListViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
     @IBAction func addMovieButtonPressed(_ sender: UIButton) {
@@ -55,9 +57,8 @@ class AddMovieController: UIViewController {
                  }
 
                  AppDelegate.shared.saveContext()
-             }
-        
-          navigationController?.popViewController(animated: true)
+             }        
+        navigationController?.popViewController(animated: true)
          }
     
     

@@ -17,9 +17,10 @@ class MovieListViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        movies = movieDataManager.fetchMoviesFromEntity()
         tableView.reloadData()
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
