@@ -39,7 +39,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.1090573183" green="0.1413761436" blue="0.4272511276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uja-9N-K1X" secondAttribute="trailing" constant="50" id="3lb-Vt-rw6"/>
                             <constraint firstItem="NS4-EK-P7I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="E6r-YD-zvl"/>
@@ -64,7 +64,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dlb-X3-RIo">
                                 <rect key="frame" x="5" y="44" width="383" height="808"/>
-                                <color key="backgroundColor" red="0.1019607843" green="0.12941176469999999" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="yBp-LX-Edc" id="8ol-bQ-OjZ"/>
                                     <outlet property="delegate" destination="yBp-LX-Edc" id="dGl-5r-6RU"/>
@@ -72,7 +72,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7qw-5q-7bD"/>
-                        <color key="backgroundColor" red="0.1019607843" green="0.12989628619999999" blue="0.3925579897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dlb-X3-RIo" firstAttribute="leading" secondItem="7qw-5q-7bD" secondAttribute="leading" constant="5" id="PN9-Ny-Afd"/>
                             <constraint firstItem="7qw-5q-7bD" firstAttribute="trailing" secondItem="dlb-X3-RIo" secondAttribute="trailing" constant="5" id="UeN-bH-Oc2"/>
@@ -368,7 +368,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Add New Movie" cornerStyle="capsule">
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                                            <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
+                                                            <color key="baseBackgroundColor" red="0.2360850427" green="0.54373389179999998" blue="0.52539630579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </buttonConfiguration>
                                                         <connections>
                                                             <action selector="addMovieButtonPressed:" destination="V9D-21-tbD" eventType="touchUpInside" id="ria-nd-8tM"/>
@@ -377,7 +377,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.1019607843" green="0.12989628619999999" blue="0.3925579897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="pKu-Os-gBz" secondAttribute="trailing" constant="15" id="HSC-ep-gPe"/>
                                             <constraint firstItem="pKu-Os-gBz" firstAttribute="leading" secondItem="eeV-ze-M15" secondAttribute="leading" constant="15" id="Iah-r7-eLl"/>
@@ -395,7 +395,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g4g-08-HgO"/>
-                        <color key="backgroundColor" red="0.1019607843" green="0.12989628619999999" blue="0.3925579897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Vc0-ab-dxV" firstAttribute="trailing" secondItem="g4g-08-HgO" secondAttribute="trailing" id="9Yl-az-hoW"/>
                             <constraint firstItem="eeV-ze-M15" firstAttribute="width" secondItem="deg-ak-Tef" secondAttribute="width" id="oGK-ju-hUk"/>
@@ -676,7 +676,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Update Movie" cornerStyle="capsule">
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
-                                                            <color key="baseBackgroundColor" red="0.8392156959" green="0.39607840779999998" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="baseBackgroundColor" red="0.2360850427" green="0.54373389179999998" blue="0.52539630579999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </buttonConfiguration>
                                                         <connections>
                                                             <action selector="updateButtonPressed:" destination="UPd-ZB-Aaq" eventType="touchUpInside" id="uyD-rh-2uY"/>
@@ -685,7 +685,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.25525343579999998" green="0.33089706390000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="Vr0-TF-U6Z" firstAttribute="top" secondItem="kzr-Xr-lgp" secondAttribute="top" constant="10" id="5xk-bk-1Of"/>
                                             <constraint firstAttribute="height" constant="800" id="Le3-6Y-NFi"/>
@@ -703,7 +703,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sNf-hF-C3G"/>
-                        <color key="backgroundColor" red="0.25525343579999998" green="0.33089706390000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="R2F-2M-Qu0" firstAttribute="trailing" secondItem="sNf-hF-C3G" secondAttribute="trailing" id="9he-zU-FFq"/>
                             <constraint firstItem="R2F-2M-Qu0" firstAttribute="top" secondItem="sNf-hF-C3G" secondAttribute="top" id="Jwj-3T-fdZ"/>
@@ -736,7 +736,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ws2-Zp-5aG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="952" y="837"/>
+            <point key="canvasLocation" x="951.90839694656484" y="836.61971830985919"/>
         </scene>
     </scenes>
     <resources>
