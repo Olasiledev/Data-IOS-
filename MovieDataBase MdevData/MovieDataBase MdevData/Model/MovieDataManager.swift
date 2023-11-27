@@ -10,27 +10,27 @@ import CoreData
 import UIKit
 
 class MovieDataManager {
-
+    
     static let shared = MovieDataManager()
     var movies: [Movies] = []
     
     
     func saveMovies(_ movies: [MovieData]) {
-       let context = AppDelegate.shared.persistentContainer.viewContext
-
-       for movieData in movies {
-           let entity = NSEntityDescription.entity(forEntityName: "Movies", in: context)!
-           let movieFileObject = NSManagedObject(entity: entity, insertInto: context)
-
-           let mirror = Mirror(reflecting: movieData)
-           for movieJson in mirror.children {
-               if let key = movieJson.label {
-                   movieFileObject.setValue(movieJson.value, forKey: key)
-               }
-           }
-       }
-       AppDelegate.shared.saveContext()
-   }
+        let context = AppDelegate.shared.persistentContainer.viewContext
+        
+        for movieData in movies {
+            let entity = NSEntityDescription.entity(forEntityName: "Movies", in: context)!
+            let movieFileObject = NSManagedObject(entity: entity, insertInto: context)
+            
+            let mirror = Mirror(reflecting: movieData)
+            for movieJson in mirror.children {
+                if let key = movieJson.label {
+                    movieFileObject.setValue(movieJson.value, forKey: key)
+                }
+            }
+        }
+        AppDelegate.shared.saveContext()
+    }
     
     
     func decodeJsonToEntity() {
@@ -45,7 +45,7 @@ class MovieDataManager {
             print(error)
         }
     }
-
+    
     
     func fetchMoviesFromEntity() -> [Movies] {
         let context = AppDelegate.shared.persistentContainer.viewContext
